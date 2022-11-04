@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+nav .container{
+    max-width: 1170px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    padding-top: 38px;
+    padding-bottom: 38px;
+}
+nav p{
+    margin-left:auto;
+    text-transform:uppercase;
+    text-align:right;
+    word-spacing: 45px;
+    width: 1170px;
+}
+nav a{
+    color: black;
+}
+nav img{
+    float: left;
+}
+
+header {
+    background: url("../img/Path.png") no-repeat top center / cover;
+
+    padding-top: 255px;
+    padding-bottom: 250px;
+}
+.offer h1{
+    font-size: 60px;
+    text-align: center;
+    width: 670px;
+    color: #fff;
+    margin: 0 auto;
+    font-weight:300;
+    padding-bottom: 50px;
+
+}
+
+.info_text{
+    text-align: center;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+}
+.info li{
+    text-align: center;
+    padding-bottom: 85px;
+}
+.info li:first-child{
+    width: 240px;
+    margin-right: 45px;
+}
+.info li:nth-child(2){
+    width: 275px;
+    margin-right: 14.5px;
+}
+.info li:nth-child(3){
+    width: 275px;
+    margin-left: 14.5px;
+}
+.info li:last-child{
+    margin-left: 35px;
+    width: 240px;
+}
+.info h2{
+    padding-top: 25px;
+    font-size: 15px;
+    text-transform:uppercase;
+    font-weight:500;
+}
+.info p{
+    padding-top: 50px;
+    font-size: 13px;
+    color: #a1a8ad;
+    text-align: center;
+}
+section{
+    padding-top: 85px;
+    padding-bottom: 85px;
+}
+
+.bord{
+    width: 250px;
+    background: #3fd2ce;
+    border-radius: 10px;
+    padding: 25px 0px 30px;
+    text-align: center;
+    text-transform:uppercase;
+    display: block;
+    margin: 0 auto;
+}
+.bord:hover{
+    background: #ff2b59;
+    color: #fff;
+}
+nav .bord{
+    background: #3fd2ce;
+    padding: 12.5px 28px;
+    border-radius: 10px;
+    color: #fff;
+    width:max-content;
+    display:inline;
+}
+header .bord{
+    background: #fff;
+    color: #000000;
+}
+section .bord{
+    font-size: 20px;
+}
